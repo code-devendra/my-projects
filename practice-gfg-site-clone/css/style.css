@@ -1,5 +1,6 @@
 body {
     background-color: #EFECE9;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
