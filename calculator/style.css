@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.calculator {
+    max-width: 350px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 20px rgba(92, 92, 92, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.three-dots {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+
+.dot-1,
+.dot-2,
+.dot-3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.dot-1 {
+    background-color: red;
+}
+
+.dot-2 {
+    background-color: rgb(255, 255, 0);
+}
+
+.dot-3 {
+    background-color: green;
+}
+
+.display {
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+#display-area {
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.rows {
+    height: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.color-change {
+    color: orangered;
+}
+
+.equals:hover {
+    color: white;
+    background-color: orangered;
+    border-radius: 50%;
+    cursor: pointer;
+
+}

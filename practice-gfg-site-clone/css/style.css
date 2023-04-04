@@ -1,0 +1,208 @@
+body {
+    background-color: #EFECE9;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.text-dark {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item .nav-link:hover {
+    color: green !important;
+}
+
+/* CAROUSEL */
+
+.my-carousel {
+    margin-top: 75px;
+}
+
+/* COURSES */
+
+#courses-container {
+    margin-bottom: 50px;
+}
+
+#courses-heading {
+    margin-bottom: 40px;
+}
+
+.course-card {
+    border-radius: 0;
+    border-bottom-left-radius: 20px;
+}
+
+.course-title {
+    font-size: 15px;
+}
+
+.course-suited-for {
+    font-size: 12px;
+}
+
+.course-view {
+    border-bottom-left-radius: 20px !important;
+    background-color: rgb(14, 112, 14);
+    font-weight: bold;
+}
+
+.course-view:hover {
+    cursor: pointer;
+}
+
+.course-card-2 .course-title {
+    margin-bottom: 27px;
+}
+
+.more-course-desc {
+    color: rgb(102, 101, 101);
+    font-size: 21px;
+}
+
+.course-view-more {
+    border-bottom-left-radius: 20px !important;
+    background-color: rgb(162, 5, 5);
+    font-weight: bold;
+}
+
+.course-view-more:hover {
+    cursor: pointer;
+}
+
+.course-body {
+    overflow-y: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .course-div {
+        margin-bottom: 20px;
+    }
+}
+
+/* PRATICE TOPICS */
+#topics-container {
+    margin-bottom: 50px;
+}
+
+#topics-heading {
+    margin-bottom: 40px;
+}
+
+.card {
+    box-shadow: 0 0 35px 1px #8d8d8d;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-body {
+    background-color: #F1F1F1;
+    border-bottom-left-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .topic-div {
+        margin-bottom: 20px;
+    }
+}
+
+/* PRACITCE COMPANIES */
+#companies-container {
+    margin-bottom: 50px;
+}
+
+#companies-heading {
+    margin-bottom: 40px;
+}
+
+.company-card {
+    height: 158px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .company-div {
+        margin-bottom: 20px;
+    }
+}
+
+/* FOOTER */
+#footer-container {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    line-height: 1.8;
+}
+
+#footer-container a {
+    text-decoration: none;
+    color: #454545;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-logo-img {
+    width: 250px;
+}
+
+#footer-container a:hover {
+    color: rgb(14, 112, 14);
+}
+
+.footer-links-title {
+    color: rgb(14, 112, 14);
+}
+
+.address-icon {
+    color: rgb(14, 112, 14);
+}
+
+.social-icon {
+    color: #454545;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+    color: rgb(14, 112, 14);
+}
+
+.footer-links {
+    padding-top: 13px;
+}
+
+@media only screen and (max-width: 991px) {
+    .footer-logo-img {
+        margin: 0 auto;
+    }
+
+    .footer-address {
+        text-align: center;
+    }
+
+    .footer-social-icons {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-links {
+        text-align: center;
+    }
+}
+
+/* COPYRIGHT */
+#copyright-container {
+    background-color: rgb(14, 112, 14);
+    color: white;
+}
+
+.copyright {
+    font-weight: bold;
+    margin-top: 10px;
+}

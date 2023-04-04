@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Enable Site</title>
+    <script src="https://kit.fontawesome.com/f3dba371cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <img src="./cookie-logo.png" alt="logo" id="logo">
+
+    <!-- COOKIES POP-UP BOX -->
+    <div class="cookies-box hidden">
+        <img src="./cookie.jpg" alt="Cookie photo">
+        <h3 class="cookies-box-heading">We Use Cookies!!</h3>
+        <p class="cookies-box-desc">Cookies allow the website publisher to do useful things like find out whether the
+            computer [and probably it's useer] has visited the site before.</p>
+        <div class="cookies-box-btns">
+            <button class="btn-customize">Customize</button>
+            <button class="btn-allow">Allow all</button>
+        </div>
+        <p class="decline-cookies">Nope...I am on a diet 😥</p>
+    </div>
+
+    <!-- Customize BOX -->
+    <div class="customize-box hidden">
+        <h4 class="back-btn"><i class="fa-solid fa-arrow-left"></i></h4>
+        <h3 style="margin-top: 20px;">Customize Preferences</h3>
+        <p class="customize-box-desc">When you visit any of our websites, it may store or retrieve information on your
+            browser, mostly in the form of cookies. This information might be about you, your preferences or your device
+            and is mostly used to make the site work as you expect it to. </p>
+        <div class="select-preferences">
+            <div class="preferences">
+                <h5>Strictly Necessary❓</h5>
+                <input type="checkbox" id="preference-one" checked disabled>
+            </div>
+            <div class="preferences">
+                <h5>Performance Cookies❓</h5>
+                <input type="checkbox" id="preference-two">
+            </div>
+            <div class="preferences">
+                <h5>Functional Cookies❓</h5>
+                <input type="checkbox" id="preference-three">
+            </div>
+            <div class="preferences">
+                <h5>Targetting Cookies❓</h5>
+                <input type="checkbox" id="preference-four">
+            </div>
+        </div>
+
+        <button class="save-preferences">Save Preferences</button>
+
+    </div>
+
+    <div class="bg"></div>
+    </div>
+    <div class="cookie-bg"></div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
