@@ -18,31 +18,39 @@ body {
 .container {
     background-color: rgb(255, 101, 44);
     width: 95%;
-    max-width: 600px;
-    padding: 50px;
+    max-width: 400px;
+    padding: 30px;
     border: none;
     border-radius: 10px;
     box-shadow: 0 2px 15px rgb(83, 83, 83);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
     color: white;
 }
 
-h4 {
-    margin-bottom: 10px;
-    font-size: 18px;
+.price-input,
+.discount-input,
+.final-output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
 }
 
-.arrow-icon {
-    font-size: 35px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
+h4 {
+    font-size: 15px;
+}
+
+h3 {
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
 }
 
 input {
-    width: 200px;
-    padding: 15px 15px;
+    width: 150px;
+    padding: 7px 10px;
+    background-color: white;
     border: 2px solid white;
     border-radius: 5px;
     outline: none;
@@ -50,17 +58,22 @@ input {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    .container {
-        flex-direction: column;
-    }
+.you-save-output {
+    text-align: center;
+    color: rgb(242, 242, 242);
+    margin-top: 20px;
+}
 
-    .arrow-icon {
-        margin: 30px 0;
-        transform: rotate(90deg);
-    }
+span {
+    font-size: 20px;
+}
 
+@media only screen and (max-width: 550px) {
     input {
-        width: 250px;
+        width: 35%;
+    }
+
+    h3 {
+        width: 35%;
     }
 }
