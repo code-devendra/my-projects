@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #c0eef2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 95%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 100%;
+  height: 300px;
+}
+form textarea {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+  border: 2px solid #181823;
+  border-bottom: none;
+  font-size: 18px;
+  color: #181823;
+  outline: none;
+  background-color: #e9f8f9;
+  resize: none;
+}
+
+.count-result {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  color: #e9f8f9;
+  background-color: #537fe7;
+  border: 2px solid #181823;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#reset {
+  margin-top: 10px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #181823;
+  border: 2px solid orangered;
+  border-radius: 2px;
+  background-color: #e9f8f9;
+  cursor: pointer;
+}
+
+#reset i {
+  color: orangered;
+  margin-left: 5px;
+}
